@@ -1,7 +1,7 @@
 # simple-nodejs-app
 For DEPI Projects 
 
-*------------------------*
+##--------------------------------------##
 
 #### 1. Application setup steps
 
