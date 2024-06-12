@@ -52,11 +52,14 @@ app.get('/', (req, res) => {
                 <p class="highlight">Hello, World!</p>
                 <p>I am <span class="highlight">DEPI- DevOps learner</span>.</p>
                 <p>This is a <span class="highlight">nodejs app</span> for testing!</p>
+                <!-- Add the animated GIF below -->
+                <img src="https://gifdb.com/images/high/energetic-leonardo-dicaprio-celebration-dance-0dz1c60cw9lemqiq.webp" alt="Celebration GIF" style="width: 300px; height: auto;">
             </div>
         </body>
         </html>
     `);
 });
+
 app.listen(3000, function () {
     logger.info("app listening on port 3000!");
 });
