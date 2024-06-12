@@ -9,7 +9,6 @@ logger.info('hello world');
 logger.info('I am DEPI- DevOps learner');
 logger.info('This is a nodejs app for testing');
 
-// Define a route for the root URL (/)
 app.get('/', (req, res) => {
     res.send('Hello, World!');
 });
